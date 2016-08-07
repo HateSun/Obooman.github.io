@@ -1,24 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
-  
+  <title>文艺前端的臆想地</title>
+  <subtitle>Dream place of a life fucker</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
-  <updated>2016-08-07T09:28:51.000Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://oboochin.top/"/>
+  <updated>2016-08-07T11:47:34.000Z</updated>
+  <id>http://oboochin.top/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Oboo Chin</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>apollo</title>
+    <link href="http://oboochin.top/2016/08/07/apollo/"/>
+    <id>http://oboochin.top/2016/08/07/apollo/</id>
+    <published>2016-08-07T10:41:34.000Z</published>
+    <updated>2016-08-07T11:47:34.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>中文</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> name = <span class="string">'json'</span>;</div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">Cool</span>(<span class="params"></span>)</span>&#123;</div><div class="line"> <span class="keyword">return</span> <span class="keyword">new</span> Regexg(<span class="string">'^[W+_|]$'</span>,<span class="string">'img'</span>) || <span class="regexp">/\D&#123;12,&#125;/</span></div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">const</span> name = what;</div><div class="line"></div><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">react</span> <span class="keyword">extends</span> <span class="title">Com</span></span>&#123;</div><div class="line"> <span class="keyword">constructor</span>&#123;</div><div class="line"> 	<span class="keyword">super</span>()</div><div class="line"> &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line">[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>] &#123;a:<span class="number">1</span>,b:<span class="number">2</span>&#125;</div><div class="line"><span class="keyword">let</span> sd = <span class="number">12</span>;</div><div class="line"></div><div class="line"><span class="keyword">import</span> <span class="keyword">export</span> <span class="keyword">default</span> <span class="keyword">from</span> <span class="built_in">require</span> <span class="built_in">module</span>.export</div><div class="line"></div><div class="line"><span class="keyword">delete</span> [].pop();</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;中文&lt;/p&gt;
+&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2016/08/06/hello-world/"/>
-    <id>http://yoursite.com/2016/08/06/hello-world/</id>
+    <link href="http://oboochin.top/2016/08/06/hello-world/"/>
+    <id>http://oboochin.top/2016/08/06/hello-world/</id>
     <published>2016-08-06T02:49:02.000Z</published>
     <updated>2016-08-07T09:28:51.000Z</updated>
     
