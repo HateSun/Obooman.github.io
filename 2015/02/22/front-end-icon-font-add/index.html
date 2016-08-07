@@ -1,0 +1,33 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> 矢量网页世界-后记 · 文艺前端的臆想地</title><meta name="description" content="矢量网页世界-后记 - Oboo Chin"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="short icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://oboochin.top/atom.xml" title="文艺前端的臆想地"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="https://github.com/obooman" target="_blank" class="nav-list-link">GITHUB</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><section class="container"><div class="post"><article class="post-block"><h1 class="post-title">矢量网页世界-后记</h1><div class="post-info">Feb 22, 2015</div><div class="post-content"><p>实际上，我有了另外一个考量。</p>
+<blockquote>
+<p>是不是可以在AI中写出标题之后导出为svg，然后再通过IcoMoon转换成字体的一部分，那不也是另外一个解决方案吗？这两个方案我不太清楚性能优劣性，但是从难易角度来说相比现在这种更省事，因为</p>
+</blockquote>
+<ol>
+<li>不需要跑页面，实际上页面并不一定处于同一文件夹，Font-Spider还是有使用不当</li>
+<li>特殊字体基本应用较少，但是可能是多个字体，选择也是问题</li>
+<li>一次性的解决方案</li>
+<li>可以对文字进行相对随意简单的变形设计</li>
+</ol>
+<p>我在ai里用<strong>迷你简菱心</strong>写了几个字稍微加了一个修饰性的三角号，进行字体导入之后结果出乎我的意料:</p>
+<p><img src="http://ww2.sinaimg.cn/large/005X3nNxjw1epigsozni0j31kw0vlagu.jpg" style="width:960px"></p>
+<p><img src="http://ww3.sinaimg.cn/large/005X3nNxjw1epigtj7f1vj30k60em74s.jpg" style="width:960px"></p>
+<p>肉眼可见的是我的文字们都<em>挂掉了</em>，可见的只有这个孤零零的小三角。发生了啥？</p>
+<blockquote>
+<p>实际上这和我在AI中的疑问相同:字体输入之后我并没有找到文字的锚，没办法直接修改文字，也就是说此时的文字并不是路径。</p>
+</blockquote>
+<p>所以现在我们需要解决的问题是<strong>将文字转化成路径</strong>。怎样解决呢？</p>
+<p>用钢笔描！</p>
+<p>简直不能更心酸。这样做完全没有生产力可言。</p>
+<blockquote>
+<p>当然我也呼吁所有的VI设计和Web设计们把比较特殊的文件给出矢量路径，可以为后期的网页制作铺垫，哪怕不用矢量，这种形式的原型也是有优势的。</p>
+</blockquote>
+<p>解决方案其实很简单。确保目前是“钢笔工具”，菜单栏有“文字”菜单，点击之后选择<code>创建轮廓</code>（Mac快捷键<code>Command+shift+o</code>）</p>
+<p><img src="http://ww3.sinaimg.cn/large/005X3nNxjw1epighr0610j31kw0zjtho.jpg" style="width:960px"></p>
+<p>如此操作之后我们就可以通过操作锚点来进行文字变形了，最后别忘了<strong>编组输出svg</strong></p>
+<p><img src="http://ww4.sinaimg.cn/large/005X3nNxjw1epighqdx5uj31hg0zcjvs.jpg" style="width:960px"></p>
+<p><img src="http://ww2.sinaimg.cn/large/005X3nNxjw1epighpo2nnj30wt0kbmye.jpg" style="width:960px"></p>
+<p>也就是说这条路目前是完全可行的，但是我有一些考虑：</p>
+<blockquote>
+<p>实际上这样子出来的文字和平时网站引入的字体已经不处在同一个字号维度了，普通的定宽页面解决方案这样是OK，可是如果做响应式以后应该怎么做？字号的变换比例究竟怎样做？以后是要研究一下的。</p>
+</blockquote>
+</div></article></div></section><footer><div class="paginator"><a href="/2015/02/17/frent-end-icon-font/" class="next">NEXT</a></div><div class="copyright"><p>© 2015 - 2016 <a href="http://oboochin.top">Oboo Chin</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-MML-AM_CHTML"></script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-65933410-1",'auto');ga('send','pageview');</script></body></html>
